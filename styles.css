@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.header,
+.banner,
+.footer {
+    background-color: #2e3a23;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8;
+    padding:0;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+}
+
+li {
+    list-style: none;
+    margin:0;
+    padding:12px;
+    display:inline;
+}
+
+a {
+    color:#E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner a,
+.signup a {
+    font-size: 14px;
+    color:#E5E7EB;
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #afb832;
+    border: 0;
+    border-radius: 8px;
+    width:108px;
+    height:48px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.customer {
+    font-size: 24px;
+    font-weight: 500;
+    font-style:normal;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:64px;
+    padding:0 156px;
+    position: fixed;
+    width:100%;
+    box-sizing:border-box; /*this is the key to make list items not overflow! Yayyy */
+}
+
+.navbar ul {
+    display:flex;
+    flex-direction: row;
+    gap:64px;
+    text-align: right;
+}
+
+.navbar li {
+    padding: 0;
+}
+
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:96px;
+    padding:64px 156px;
+    height:400px;
+}
+
+.intro {
+    display:flex;
+    flex-direction: column;
+}
+
+.intro p{
+    color:#F9FAF8;
+}
+
+.subtitle {
+    text-align: center;
+    margin:64px;
+}
+
+.list {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:64px;
+    margin-bottom: 128px;
+}
+
+.items {
+    display:flex;
+    flex-flow:column wrap;
+    width:200px;
+    text-align: center;
+}
+
+.placeholder img{
+    box-shadow: 0 0 24px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    height:300px;
+}
+
+.main img{
+    height:200px;
+    width:200px;
+    border-radius: 8px;
+    border: solid #d4d4d4;
+}
